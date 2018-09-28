@@ -32,6 +32,9 @@ import de.flapdoodle.embed.mongo.distribution.Version;
 import de.flapdoodle.embed.mongo.distribution.Versions;
 import de.flapdoodle.embed.process.config.IRuntimeConfig;
 import de.flapdoodle.embed.process.config.io.ProcessOutput;
+import de.flapdoodle.embed.process.config.store.FileSet;
+import de.flapdoodle.embed.process.config.store.IPackageResolver;
+import de.flapdoodle.embed.process.distribution.ArchiveType;
 import de.flapdoodle.embed.process.distribution.Distribution;
 import de.flapdoodle.embed.process.distribution.IVersion;
 import de.flapdoodle.embed.process.exceptions.DistributionException;
@@ -173,7 +176,7 @@ public class StartMongoMojo extends AbstractMongoMojo {
      *
      * @since 1.0.0
      */
-    @Parameter(property = "mongodb.downloadPath", defaultValue = "http://fastdl.mongodb.org/")
+    @Parameter(property = "mongodb.downloadPath", defaultValue = "http://downloads.mongodb.org/")
     private String downloadPath;
 
     /**
