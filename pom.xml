@@ -27,9 +27,9 @@
         <version>6-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.github.agoston</groupId>
-    <artifactId>maven-mongodb-plugin</artifactId>
-    <version>1.2.1</version>
+    <groupId>com.syncleus.maven.plugins</groupId>
+    <artifactId>mongodb-maven-plugin</artifactId>
+    <version>1.2.0-BOL</version>
     <packaging>maven-plugin</packaging>
 
     <name>maven-mongodb-plugin</name>
